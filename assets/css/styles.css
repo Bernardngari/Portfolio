@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black; 
+  font-size: 3vh;
+  font-weight: 900;
+}
+
+a:hover{
+  color: red;
+  background-color: black;
+  padding: 15px;
+  align-content: center;
+  text-decoration: underline;
+}
+
+ul{
+  list-style-type: none;
+  display: inline-flex;
+}
+
+nav{
+  background-color: grey;
+  text-align: right;
+  border-bottom: solid black 3px;
+}
+nav ul li a{
+  padding-left: 60px;
+  margin-right: 70px;
+  
+}
+
+
+#contact li{
+  padding-left: 45px;
+}
+
+.horiAlign a{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: solid grey 3px;
+  border-bottom: solid grey 3px;
+  position:relative;
+  top:18vh;
+  left:0;
+}
+
+.centerDiv{
+  width: 40vw;
+  margin-left: 200px;
+  height:50vh;
+  margin-top: 100px;
+}
+
+footer div.horiAlign{
+  display: inline-flex;
+}
+
+#ui{
+margin: auto;
+font-weight: 900;
+width: 40vw;
+text-align: center;
+font-size: x-large;
+opacity: 0.5;
+}
+
+div.centerDiv p#paraCenterDiv{
+  line-height: 50px;
+  font-size: x-large;
+  font-style: italic;
+}
+
+#ui:hover{
+  opacity: 1;
+  font-size: xx-large;
+  border-radius: 20px;
+}
+#explore{
+  width: 7vw;
+  height: 4vh;
+  background-color: gray;
+  border: 1px grey solid;
+  border-radius: 10px;
+  margin-top: 70px;
+  font-size: 15px;
+}
+
+#explore:hover{
+  background-color: red;
+  font-size: 20px;
+}
+
+p#paraCenterDiv:hover{
+font-weight: 900;
+text-shadow: 2px 8px 4px grey;
+}
+
